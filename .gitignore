@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# Data (Sensitive personal information)
+data/*.json
+data/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/src/graph_data.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
